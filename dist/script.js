@@ -171,7 +171,7 @@ class CanvasTxt {
 
 class CanvAscii {
     constructor(_str) {
-				this.str = _str || "Hello World"
+				this.str = _str || "Sajin M. Simon"
         this.container = document.body
         this.camera = new THREE.PerspectiveCamera(45, this.width / this.height, 1, 1000)
         this.camera.position.z = 35
@@ -300,5 +300,5 @@ class CanvAscii {
 
 }
 
-const _asciiText = new CanvAscii("Hello_world")
+const _asciiText = new CanvAscii("Sajin M. Simon")
 window.onload = () => _asciiText.load()
